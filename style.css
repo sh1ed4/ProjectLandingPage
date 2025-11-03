@@ -12,9 +12,14 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  border: 1px solid black;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 /* Header */
@@ -22,6 +27,8 @@
   background-color: #1f2937;
   display: flex;
   align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .header .logo {
@@ -42,19 +49,49 @@
   gap: 30px;
 }
 
+/* Preparation for sections */
+.first-section,
+.second-section,
+.third-section,
+.fourth-section {
+  flex: 1;
+}
+
 /* First Section */
 .first-section {
   display: flex;
   align-items: center;
   background-color: #1f2937;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .hero {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
+  width: 80%;
+}
+
+.sub-hero {
+  font-size: 18px;
+  color: #e5e7eb;
+  width: 80%;
+  margin-bottom: 10px;
 }
 
 .image {
   margin-left: auto;
+  background: gray;
+  padding: 100px 200px;
+  color: white;
 }
+
+.button {
+  background-color: #3882f6;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Second section */
