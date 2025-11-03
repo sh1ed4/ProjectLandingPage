@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* IMPORTANT AS THIS ENSURES THAT ALL HAVE THE SAME LEFT AND RIGHT SPACE */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  border: 1px solid black;
+}
+
+/* Header */
+.header {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+}
+
+.header .logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.header a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.header .links {
+  margin-left: auto;
+  display: flex;
+  gap: 30px;
+}
+
+/* First Section */
+.first-section {
+  display: flex;
+  align-items: center;
+  background-color: #1f2937;
+}
+
+.hero {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.image {
+  margin-left: auto;
+}
