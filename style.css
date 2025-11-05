@@ -136,3 +136,37 @@ body {
   border: 4px solid #3882f6;
   border-radius: 10px;
 }
+
+/* Third Section */
+.third-section {
+  background-color: #e5e7eb;
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentThird {
+  border: 1px solid red;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 33.5rem;
+  gap: 1rem;
+}
+
+.paragraph {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.author {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  align-self: flex-end;
+}
