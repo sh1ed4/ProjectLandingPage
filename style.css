@@ -41,3 +41,53 @@ body {
   color: #e5e7eb;
 }
 /* End of Navigation */
+
+/* First section */
+.first-section {
+  background-color: #1f2937;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  height: 420px;
+  display: flex;
+  align-items: center;
+}
+
+.contentFirst {
+  border: 1px solid red;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15rem;
+}
+
+.hero {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  width: 80%;
+  margin-bottom: 5px;
+}
+
+.subHero {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 5px;
+}
+
+.buttonFirst {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+  color: #f9faf8;
+}
+
+.imageFirst {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 600px;
+  background-color: grey;
+}
