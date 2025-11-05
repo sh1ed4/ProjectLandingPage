@@ -29,6 +29,7 @@ body {
 .title {
   font-size: 24px;
   color: #f9faf8;
+  font-weight: 900;
 }
 
 .links {
@@ -204,5 +205,14 @@ body {
   border-radius: 5px;
   border: 2px solid #f9faf8;
   background: none;
+  color: #f9faf8;
+}
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0rem;
+  align-items: center;
   color: #f9faf8;
 }
