@@ -91,3 +91,48 @@ body {
   width: 600px;
   background-color: grey;
 }
+
+/* Second section */
+.second-section {
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentSecond {
+  border: 1px solid red;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 35rem;
+  gap: 3rem;
+}
+
+.titleSecond {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.container {
+  display: flex;
+  gap: 5rem;
+}
+
+.boxContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 150px;
+  text-align: center;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+}
