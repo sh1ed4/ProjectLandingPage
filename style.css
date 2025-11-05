@@ -19,7 +19,6 @@ body {
 }
 
 .content {
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
   margin: 0 15rem;
@@ -54,7 +53,6 @@ body {
 }
 
 .contentFirst {
-  border: 1px solid red;
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -102,7 +100,6 @@ body {
 }
 
 .contentSecond {
-  border: 1px solid red;
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -148,7 +145,6 @@ body {
 }
 
 .contentThird {
-  border: 1px solid red;
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -193,6 +189,7 @@ body {
 .headerFourth {
   font-size: 24px;
   color: #f9faf8;
+  font-weight: 900;
 }
 
 .subHeaderFourth {
