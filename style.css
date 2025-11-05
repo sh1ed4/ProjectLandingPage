@@ -11,7 +11,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-
+/* Navigation */
 .navigation {
   background-color: #1f2937;
   padding-top: 0.5rem;
@@ -40,3 +40,4 @@ body {
   text-decoration: none;
   color: #e5e7eb;
 }
+/* End of Navigation */
