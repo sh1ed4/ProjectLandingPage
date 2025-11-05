@@ -170,3 +170,39 @@ body {
   color: black;
   align-self: flex-end;
 }
+
+/* Fourth section */
+.fourth-section {
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  padding: 2.5rem 5rem;
+  background-color: #3882f6;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.headerFourth {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.subHeaderFourth {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.buttonFourth {
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  border: 2px solid #f9faf8;
+  background: none;
+  color: #f9faf8;
+}
